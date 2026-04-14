@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.senai.backend.controle_frequencia.models.Pauta;
 
 @Repository
-public interface PautaRepositor extends JpaRepository <Pauta, Integer> {
+public interface PautaRepository extends JpaRepository <Pauta, Integer> {
     
 }
