@@ -24,7 +24,7 @@ public class UsuariosServices {
         
     }
 
-    public List<Usuario> listaUsuarios(){
+    public List<Usuario> listarUsuarios(){
         return usuarioRepository.findAll();
     }
 
