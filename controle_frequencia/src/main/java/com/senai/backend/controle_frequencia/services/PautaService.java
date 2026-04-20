@@ -35,7 +35,7 @@ public class PautaService {
         return false;
     }
 
-    public Pauta cadastroPauta(Pauta pauta) {
+    public Pauta cadastrarPauta(Pauta pauta) {
         return pautaRepository.save(pauta);
     }
 
